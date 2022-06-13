@@ -1,0 +1,79 @@
+body {
+	background-color: hsl(212, 45%, 89%);
+}
+
+@media (min-width: 300px) and (max-width: 899.9px) {
+	.card {
+		width: 20em;
+	}
+
+	.card-subtitle {
+		padding: 5px;
+		margin: 10px 1px;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 2440px) {
+	.card {
+		width: 21em;
+		padding: 16px;
+	}
+
+	.card-subtitle {
+		padding: 10px 0px 10px 0px;
+		margin: 10px 10px;
+	}
+}
+
+main {
+	width: fit-content;
+	height: fit-content;
+	padding: 10%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-family: 'Outfit', sans-serif;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	border-radius: 12px;
+}
+
+.card {
+	border-radius: 20px;
+	align-content: center;
+	justify-content: center;
+	background-color: hsl(0, 0%, 100%);
+}
+
+.card-body {
+	padding: 18px;
+}
+
+.card-subtitle {
+	padding: 0px;
+	margin: 20px 0px;
+	text-align: center;
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+}
+
+.card-text {
+	padding: 10px 0px 10px 0px;
+	margin: 10px 0px;
+	text-align: center;
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
